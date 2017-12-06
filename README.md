@@ -1,2 +1,8 @@
-# angular4-app-template
-Angular 4.3.2 - Application Template.
+
+Angular 4.x Application Template.
+---------------------------------------------------
+
+```
+STEP 1: npm install 
+STEP 2: npm start
+```
