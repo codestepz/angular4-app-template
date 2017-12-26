@@ -1,5 +1,5 @@
 
-Angular 4.x Application Template.
+Angular 5.1.x Application Template.
 ---------------------------------------------------
 
 ```
