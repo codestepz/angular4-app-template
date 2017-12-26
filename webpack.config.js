@@ -55,7 +55,7 @@ module.exports = {
     },
     plugins: [
         new webpack.NoEmitOnErrorsPlugin(),
-        new webpack.optimize.UglifyJsPlugin ({ minimize: true, compress: { warnings: false }, mangle: { keep_fnames: true } }),
+        // new webpack.optimize.UglifyJsPlugin ({ minimize: true, compress: { warnings: false }, mangle: { keep_fnames: true } }),
         new webpack.optimize.CommonsChunkPlugin({ name: [ 'app', 'vendor'] }),
         new webpack.LoaderOptionsPlugin({ debug: true }),
         new webpack.ContextReplacementPlugin( /angular(\\|\/)core(\\|\/)@angular/, path.resolve(__dirname, '../application'))
